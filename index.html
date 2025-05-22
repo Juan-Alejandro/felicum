@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¡Cumpleaños #18 - Rayo McQueen!</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <audio id="musica" loop>
+    <source src="img/laif.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+      </audio>
+
+      <button class="btn-musica" onclick="document.getElementById('musica').play()">
+        🎵 Activar música
+      </button>
+
+
+    <header>
+      <h1>¡Estás invitado al 18° cumpleaños de Yo (Juan Alejandro)!</h1>
+      <p>Con la velocidad de Rayo McQueen</p>
+    </header>
+
+    <div class="contenido">
+      <img src="img/macuin.png" alt="Rayo McQueen" />
+
+      <div class="detalle">
+        <h2>📍 Lugar:</h2>
+        <p>Donde marca la ubicación</p>
+
+        <h2>📅 Fecha:</h2>
+        <p>7 de Junio 2025</p>
+
+        <h2>⏰ Hora:</h2>
+        <p>3:00 PM</p>
+      </div>
+
+      <div class="mapa">
+        <h2>🗺️ ¿Cómo llegar?</h2>
+        <iframe
+          src="https://www.google.com/maps?q=19.2357311248779,-99.5687789916992&output=embed"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <br />
+        <a
+          href="https://www.google.com/maps?q=19.2357311248779,-99.5687789916992"
+          target="_blank"
+          >Ver en Google Maps</a
+        >
+      </div>
+
+      <h2>🎥 Mira el video de invitación:</h2>
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/INSERTAR_ID_DEL_VIDEO"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <a
+        class="btn-whatsapp"
+        href="https://wa.me/527292363133?text=¡Hola!%20Quiero%20confirmar%20mi%20asistencia%20al%20cumpleaños%20número%2018"
+        target="_blank"
+      >
+        Confirmar asistencia por WhatsApp
+      </a>
+    </div>
+
+    <footer>
+      <p>¡Ka-Chow! Te esperamos para celebrar a toda velocidad 🏁</p>
+    </footer>
+  </body>
+</html>
